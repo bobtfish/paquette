@@ -14,6 +14,9 @@ requires 'Catalyst::Plugin::Authentication' => '0';
 requires 'Catalyst::Plugin::Session' => '0';
 requires 'Catalyst::Plugin::Session::Store::FastMmap' => '0';
 requires 'Catalyst::Plugin::Session::State::Cookie' => '0';
+requires 'Moose';
+requires 'MooseX::Types';
+requires 'namespace::autoclean';
 
 requires 'parent';
 requires 'Config::General'; # This should reflect the config file format you've chosen
